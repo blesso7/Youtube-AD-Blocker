@@ -8,7 +8,7 @@
   ![Opera Mini](https://img.shields.io/badge/Opera%20Mini-Compatible-red.svg)
   ![Chrome](https://img.shields.io/badge/Chrome-Compatible-yellow.svg)
 
-  A powerful browser extension designed specifically for Opera Mini that blocks YouTube ads and trackers while providing a clean, minimal user interface.
+  A powerful browser extension that blocks YouTube ads and trackers while providing a clean, minimal user interface.
 </div>
 
 ## 📋 Overview
@@ -29,7 +29,7 @@ YouTube AdBlock Pro is a lightweight browser extension designed to enhance your 
 
 ### Opera Mini (Recommended)
 
-1. Download the latest release from the [Releases page](https://github.com/yourusername/youtube-adblock-pro/releases)
+1. Download the latest release from the [Releases page](https://github.com/yourusername/youtube-AD-Blocker/releases)
 2. Unzip the downloaded file to a folder on your computer
 3. Open Opera Mini and go to `opera://extensions`
 4. Enable "Developer Mode" in the top right corner
@@ -63,10 +63,10 @@ After installation, you'll see the YouTube AdBlock Pro icon in your browser tool
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/youtube-adblock-pro.git
+git clone https://github.com/yourusername/youtube-AD-Blocker.git
 
 # Navigate to project directory
-cd youtube-adblock-pro
+cd youtube-AD-Blocker
 
 # Install dependencies
 npm install
