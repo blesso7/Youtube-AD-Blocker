@@ -1,0 +1,138 @@
+{
+  "extensionName": {
+    "message": "YouTube AdBlock Pro",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Advanced ad blocker and tracker blocker for YouTube with clean, minimal interface",
+    "description": "Description of the extension"
+  },
+  "popupTitle": {
+    "message": "YouTube AdBlock Pro",
+    "description": "Title displayed in the popup"
+  },
+  "statusActive": {
+    "message": "Active",
+    "description": "Status when ad blocker is enabled"
+  },
+  "statusDisabled": {
+    "message": "Disabled",
+    "description": "Status when ad blocker is disabled"
+  },
+  "adsBlockedLabel": {
+    "message": "Ads Blocked",
+    "description": "Label for ads blocked counter"
+  },
+  "trackersBlockedLabel": {
+    "message": "Trackers Blocked",
+    "description": "Label for trackers blocked counter"
+  },
+  "toggleEnable": {
+    "message": "Enable",
+    "description": "Text for enabling the ad blocker"
+  },
+  "toggleDisable": {
+    "message": "Disable",
+    "description": "Text for disabling the ad blocker"
+  },
+  "resetCounter": {
+    "message": "Reset Counter",
+    "description": "Button text to reset statistics"
+  },
+  "refreshPage": {
+    "message": "Refresh Page",
+    "description": "Button text to refresh the current page"
+  },
+  "reportIssue": {
+    "message": "Report Issue",
+    "description": "Button text to report an issue"
+  },
+  "dashboardTab": {
+    "message": "Dashboard",
+    "description": "Text for the dashboard tab"
+  },
+  "blockedAdsTab": {
+    "message": "Blocked Ads",
+    "description": "Text for the blocked ads tab"
+  },
+  "settingsTab": {
+    "message": "Settings",
+    "description": "Text for the settings tab"
+  },
+  "noAdsBlockedYet": {
+    "message": "No ads blocked yet",
+    "description": "Message shown when no ads have been blocked"
+  },
+  "visitYoutube": {
+    "message": "Visit YouTube to start blocking ads",
+    "description": "Suggestion to visit YouTube when no ads are blocked"
+  },
+  "videoAdType": {
+    "message": "Video Ad",
+    "description": "Label for video advertisement type"
+  },
+  "bannerAdType": {
+    "message": "Banner Ad",
+    "description": "Label for banner advertisement type"
+  },
+  "detailsButton": {
+    "message": "Details",
+    "description": "Text for the details button"
+  },
+  "viewMore": {
+    "message": "View $COUNT$ More",
+    "description": "Text for the view more button with count placeholder",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "justNow": {
+    "message": "Just now",
+    "description": "Relative time for very recent events"
+  },
+  "minutesAgo": {
+    "message": "$COUNT$ min$PLURAL$ ago",
+    "description": "Relative time for minutes ago",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      },
+      "plural": {
+        "content": "$2",
+        "example": "s"
+      }
+    }
+  },
+  "hoursAgo": {
+    "message": "$COUNT$ hour$PLURAL$ ago",
+    "description": "Relative time for hours ago",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "plural": {
+        "content": "$2",
+        "example": "s"
+      }
+    }
+  },
+  "daysAgo": {
+    "message": "$COUNT$ day$PLURAL$ ago",
+    "description": "Relative time for days ago",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      },
+      "plural": {
+        "content": "$2",
+        "example": "s"
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+/* Content script styles for YouTube ad blocking */
+
+/* Hide ad containers completely */
+.video-ads,
+.ytp-ad-module,
+.ytp-ad-overlay-container,
+.ytp-ad-text-overlay,
+.ytp-ad-player-overlay,
+.ad-container,
+.ytd-player-ads-renderer,
+.ytd-display-ad-renderer,
+#masthead-ad,
+.ytd-banner-promo-renderer,
+.ytd-action-companion-ad-renderer,
+.ytd-compact-promoted-item-renderer,
+.ytd-promoted-sparkles-web-renderer,
+.ytd-ad-slot-renderer,
+.googima-ad-div,
+.ytp-ce-element,
+.ytp-cards-teaser,
+.iv-drawer,
+.iv-click-target,
+.ytd-reel-video-renderer[is-ad],
+.ytd-rich-item-renderer[is-ad] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+
+/* Hide ad text and overlays */
+.ytp-ad-text,
+.ytp-ad-preview-text,
+.ytp-ad-duration-remaining,
+.ytp-ad-simple-ad-badge,
+.ytp-ad-visit-advertiser-button {
+  display: none !important;
+}
+
+/* Clean up video player */
+.html5-video-player .ytp-ad-module {
+  display: none !important;
+}
+
+/* Hide Shorts ads */
+ytd-shorts .ytd-rich-section-renderer[is-ad] {
+  display: none !important;
+}
+
+/* Hide promoted content */
+ytd-browse #contents ytd-rich-grid-renderer ytd-rich-item-renderer[is-promoted] {
+  display: none !important;
+}
+
+/* Hide inline promotions */
+ytd-watch-next-secondary-results-renderer .ytd-item-section-renderer[is-promoted] {
+  display: none !important;
+}
+
+/* Hide shopping panels */
+.ytp-shopping-panel-container,
+.ytp-shopping-items-container,
+.ytp-shopping-cta-container {
+  display: none !important;
+}
+
+/* Hide movie rental ads */
+.ytd-watch-next-secondary-results-renderer ytd-compact-movie-renderer {
+  display: none !important;
+}
+
+/* Hide paid content labels */
+.ytd-video-renderer .badge-style-type-paid {
+  display: none !important;
+}
+
+/* Hide video recommendations overlay */
+.ytp-ce-covering-overlay,
+.ytp-ce-element-shadow,
+.ytp-ce-covering-image,
+.ytp-ce-expanding-image,
+.ytp-ce-element.ytp-ce-channel,
+.ytp-ce-element.ytp-ce-video,
+.ytp-ce-element.ytp-ce-playlist {
+  display: none !important;
+}
+
+/* Hide ad feedback surveys */
+.ytd-mealbar-promo-renderer,
+.ytd-consent-bump-lightbox,
+.ytd-popup-container {
+  display: none !important;
+}
+
+/* Hide search result ads */
+.ytd-search #contents ytd-video-renderer[ad-display] {
+  display: none !important;
+}
+
+/* Hide YouTube Premium upsell banners */
+.ytd-premium-upsell-dialog-renderer,
+.ytd-banner-promo-renderer-background,
+.ytd-watch-premium-upsell {
+  display: none !important;
+}
+
+/* Remove padding from ad slots */
+#main:not(:empty) + #sidebar #related #items ytd-ad-slot-renderer + ytd-compact-video-renderer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Hide feed ads */
+ytd-rich-item-renderer.ytd-rich-grid-row[is-promoted],
+ytd-ad-slot-renderer.ytd-rich-grid-row {
+  display: none !important;
+}
